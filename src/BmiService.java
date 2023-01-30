@@ -1,8 +1,6 @@
-import java.text.DecimalFormat;
-
 public class BmiService {
-    public double calculate(double m, double h) {
-        double result = (m/(Math.pow(h, 2)));
+    public double calculate(double weight, double height) {
+        double result = (weight / (Math.pow(height, 2)));
         return result;
     }
 }
