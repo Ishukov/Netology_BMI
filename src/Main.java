@@ -7,7 +7,6 @@ public class Main {
         double weight = 90; //вес в киллограммах
         double height = 1.7; //рост в метрах
         String bmi = decimalFormat.format(service.calculate(weight, height));
-
         System.out.println("Ваш идекс массы тела равен " + bmi);
     }
 }
